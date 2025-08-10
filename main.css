@@ -1,0 +1,14 @@
+#image-block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 10;
+  background: white;
+}
+#image-block img, #image-block .spacer {
+  pointer-events: auto;
+  transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
